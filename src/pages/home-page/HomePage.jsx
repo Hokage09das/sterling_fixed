@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { Corusel, Layout } from '../../components';
+import { HomeAboutSection } from '../../widgets/home_about_section/HomeAboutSection';
 
 export const HomePage = () => {
 	useEffect(() => {
@@ -13,7 +14,9 @@ export const HomePage = () => {
 	return (
 		<>
 			<Corusel />
-			<Layout></Layout>
+			<Layout>
+				<HomeAboutSection variant='withButton' />
+			</Layout>
 		</>
 	);
 };
