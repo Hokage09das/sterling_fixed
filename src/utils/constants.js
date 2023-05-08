@@ -252,9 +252,4 @@ export const apartments = [
 		bathroomSecond: 'Ванная: 5,79',
 		wardrobe: 'Гардеробная: 3,66 ',
 	},
-	{
-		id: 14,
-		areaOfFloor: 'Общая площадь второго этажа: 175,74',
-		holl: 'Холл: 19,17',
-	},
 ];
