@@ -34,6 +34,24 @@ import apartment_6_2 from '../assets/images/apartment_6_2.jpg';
 import apartment_6_3 from '../assets/images/apartment_6_3.jpg';
 import apartment_6_4 from '../assets/images/apartment_6_4.jpg';
 
+import apartment_7_1 from '../assets/images/apartment_7_1.jpg';
+import apartment_7_2 from '../assets/images/apartment_7_2.jpg';
+
+import apartment_7_3 from '../assets/images/apartment_7_3.jpg';
+import apartment_7_4 from '../assets/images/apartment_7_4.jpg';
+
+import apartment_8_1 from '../assets/images/apartment_8_1.jpg';
+import apartment_8_2 from '../assets/images/apartment_8_2.jpg';
+
+import apartment_8_3 from '../assets/images/apartment_8_3.jpg';
+import apartment_8_4 from '../assets/images/apartment_8_4.jpg';
+
+import apartment_9_1 from '../assets/images/apartment_9_1.jpg';
+import apartment_9_2 from '../assets/images/apartment_9_2.jpg';
+
+import apartment_9_3 from '../assets/images/apartment_9_3.jpg';
+import apartment_9_4 from '../assets/images/apartment_9_4.jpg';
+
 export const apartments = [
 	{
 		id: 1,
@@ -216,5 +234,27 @@ export const apartments = [
 		terrace: 'Терраса: 27,43',
 		wardrobeSecond: 'Гардеробная: 6,57 ',
 		bathroomSecond: 'Ванная: 5,6',
+	},
+	{
+		id: 13,
+		img: apartment_7_1,
+		subImg: apartment_7_2,
+		desc: '6-КОМНАТНЫЙ ПЕНТХАУС (ТИП 2, БЛОК B)',
+		area: 'Общая площадь: 305,93',
+		areaOfFloor: 'Общая площадь первого этажа: 174,5',
+		holl: 'Холл: 27,94 ',
+		kabinet: 'Кабинет: 22,78',
+		kitchen: 'Кухня-столовая: 53,21',
+		bedroom: 'Спальня: 16,45 ',
+		bathroom: 'Ванная: 4,1',
+		loggia: 'Лоджия: 4,45',
+		loggiaSecond: 'Лоджия: 4,15',
+		bathroomSecond: 'Ванная: 5,79',
+		wardrobe: 'Гардеробная: 3,66 ',
+	},
+	{
+		id: 14,
+		areaOfFloor: 'Общая площадь второго этажа: 175,74',
+		holl: 'Холл: 19,17',
 	},
 ];

@@ -15,6 +15,7 @@ export const ApartmentItem = ({
 	terrace,
 	wardrobe,
 	toilet,
+	kabinet,
 	toiletSecond,
 	loggiaSecond,
 	bedroomSecond,
@@ -26,7 +27,7 @@ export const ApartmentItem = ({
 }) => {
 	return (
 		<div className={styles.aparment_item}>
-			<div>
+			<div className={styles.image_container}>
 				<div className={styles.aparment_item_first_container}>
 					<img
 						src={img}
@@ -50,6 +51,7 @@ export const ApartmentItem = ({
 					<li>{holl}</li>
 					<li>{kitchen}</li>
 					<li>{bedroom}</li>
+					<li>{kabinet}</li>
 					<li>{bedroomSecond}</li>
 					<li>{bedroomThird}</li>
 					<li>{bathroom}</li>
