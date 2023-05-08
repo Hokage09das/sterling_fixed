@@ -4,6 +4,7 @@ import { AvenueCarousel, Corusel, Layout } from '../../components';
 
 import { HomeAboutSection } from '../../widgets/home_about_section/HomeAboutSection';
 import { WelcomingSection } from '../../widgets/welcoming_section/WelcomingSection';
+import { SterlingMap } from '../../components/sterling-map/SterlingMap';
 
 export const HomePage = () => {
 	useEffect(() => {
@@ -21,6 +22,7 @@ export const HomePage = () => {
 				<HomeAboutSection variant='withButton' />
 				<WelcomingSection />
 				<AvenueCarousel />
+				<SterlingMap />
 			</Layout>
 		</>
 	);
