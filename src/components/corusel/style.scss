@@ -1,0 +1,22 @@
+.swiper_class {
+	height: 750px;
+	width: 100vw;
+	&_img {
+		height: 100%;
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	.swiper_class {
+		height: 500px;
+		width: 100vw;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.swiper_class {
+		height: 400px;
+		width: 100vw;
+	}
+}
