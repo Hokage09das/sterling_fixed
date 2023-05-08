@@ -12,12 +12,17 @@ export const ApartmentItem = ({
 	kitchen,
 	bedroom,
 	bathroom,
+	terrace,
 	wardrobe,
 	toilet,
 	toiletSecond,
 	loggiaSecond,
 	bedroomSecond,
 	bedroomThird,
+	wardrobeSecond,
+	wardrobeThird,
+	bathroomSecond,
+	areaOfFloor,
 }) => {
 	return (
 		<div className={styles.aparment_item}>
@@ -40,6 +45,7 @@ export const ApartmentItem = ({
 			<div className={styles.aparment_item_third_container}>
 				<p className={styles.title}>{desc}</p>
 				<ul>
+					<li>{areaOfFloor}</li>
 					<li>{area}</li>
 					<li>{holl}</li>
 					<li>{kitchen}</li>
@@ -52,6 +58,10 @@ export const ApartmentItem = ({
 					<li>{wardrobe}</li>
 					<li>{toilet}</li>
 					<li>{toiletSecond}</li>
+					<li>{terrace}</li>
+					<li>{wardrobeSecond}</li>
+					<li>{wardrobeThird}</li>
+					<li>{bathroomSecond}</li>
 				</ul>
 			</div>
 		</div>
