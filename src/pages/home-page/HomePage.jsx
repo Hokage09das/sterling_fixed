@@ -1,5 +1,7 @@
 import React, { useEffect } from 'react';
-import { Corusel, Layout } from '../../components';
+
+import { AvenueCarousel, Corusel, Layout } from '../../components';
+
 import { HomeAboutSection } from '../../widgets/home_about_section/HomeAboutSection';
 import { WelcomingSection } from '../../widgets/welcoming_section/WelcomingSection';
 
@@ -18,6 +20,7 @@ export const HomePage = () => {
 			<Layout>
 				<HomeAboutSection variant='withButton' />
 				<WelcomingSection />
+				<AvenueCarousel />
 			</Layout>
 		</>
 	);
