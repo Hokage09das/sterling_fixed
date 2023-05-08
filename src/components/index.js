@@ -4,6 +4,7 @@ import { Corusel } from './corusel/Corusel';
 import { BurgerMenu } from './burder-menu/BurgerMenu';
 import { ComfortList } from './comfort-list/ComfortList';
 import { SterlingMap } from './sterling-map/SterlingMap';
+import { ApartmenList } from './apartment-list/ApartmentList';
 import { AvenueCarousel } from './avenue-carousel/AvenueCarousel';
 
 export {
@@ -13,5 +14,6 @@ export {
 	BurgerMenu,
 	SterlingMap,
 	ComfortList,
+	ApartmenList,
 	AvenueCarousel,
 };

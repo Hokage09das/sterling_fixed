@@ -1,0 +1,13 @@
+.apartment_list {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	gap: 10px;
+	padding: 20px 0;
+}
+
+@media screen and (max-width: 930px) {
+	.apartment_list {
+		justify-content: center;
+	}
+}
