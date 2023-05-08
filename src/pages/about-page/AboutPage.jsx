@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 import { AvenueCarousel, Layout } from '../../components';
 
@@ -7,6 +7,14 @@ import { WelcomingSection } from '../../widgets/welcoming_section/WelcomingSecti
 import { AboutSecondSection } from '../../widgets/about_second_section/AboutSecondSection';
 
 export const AboutPage = () => {
+	useEffect(() => {
+		window.scrollTo({
+			top: 0,
+			left: 0,
+			behavior: 'smooth',
+		});
+	}, []);
+
 	return (
 		<div>
 			<Layout>
