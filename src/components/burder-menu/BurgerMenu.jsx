@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router';
 import classes from './burger_menu.module.scss';
 import { burderNavbar } from './constants';
 import logo from '../../assets/images/logo.png';
+import { BurgerIcon } from '../../assets/icons';
 
 export const BurgerMenu = () => {
 	const [isBurgerVisible, setIsBurgerVisible] = useState(false);
@@ -37,7 +38,9 @@ export const BurgerMenu = () => {
 					))}
 				</div>
 			) : (
-				<div onClick={toggleBergerMenu}>icon</div>
+				<div onClick={toggleBergerMenu}>
+					<BurgerIcon style={{ width: '30px', height: '30px' }} />
+				</div>
 			)}
 		</div>
 	);

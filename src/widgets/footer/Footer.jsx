@@ -44,7 +44,9 @@ export const Footer = ({ className }) => {
 					<div>
 						<h3>contact</h3>
 
-						<ul>
+						<ul
+							style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}
+						>
 							<li>adress</li>
 							<li>email</li>
 						</ul>
