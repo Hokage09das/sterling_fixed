@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { Corusel, Layout } from '../../components';
 
 export const HomePage = () => {
 	useEffect(() => {
@@ -9,5 +10,10 @@ export const HomePage = () => {
 		});
 	}, []);
 
-	return <div>HomePage</div>;
+	return (
+		<>
+			<Corusel />
+			<Layout></Layout>
+		</>
+	);
 };
