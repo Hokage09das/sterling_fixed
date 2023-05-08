@@ -1,5 +1,7 @@
 import React, { useEffect } from 'react';
 import { Corusel, Layout } from '../../components';
+import { HomeAboutSection } from '../../widgets/home_about_section/HomeAboutSection';
+import { WelcomingSection } from '../../widgets/welcoming_section/WelcomingSection';
 
 export const HomePage = () => {
 	useEffect(() => {
@@ -13,7 +15,10 @@ export const HomePage = () => {
 	return (
 		<>
 			<Corusel />
-			<Layout></Layout>
+			<Layout>
+				<HomeAboutSection variant='withButton' />
+				<WelcomingSection />
+			</Layout>
 		</>
 	);
 };

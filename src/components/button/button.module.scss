@@ -1,0 +1,19 @@
+.button {
+	all: unset;
+	border: 1px solid #06505b;
+	border-radius: 10px;
+
+	background-color: #06505b;
+	color: white;
+
+	padding: 15px 30px;
+
+	font-size: 18px;
+}
+
+@media screen and (max-width: 500px) {
+	.button {
+		padding: 10px 20px;
+		font-size: 14px;
+	}
+}
