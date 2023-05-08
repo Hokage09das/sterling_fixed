@@ -2,8 +2,7 @@ import React from 'react';
 
 import { navbar } from './constants';
 import { useLocation, useNavigate } from 'react-router-dom';
-import { Layout } from '../../components/layout/Layout';
-import { BurgerMenu } from '../../components/burger-menu/BurgerMenu';
+import { Layout, BurgerMenu } from '../../components';
 
 import logo from '../../assets/images/sterling-white-logo.png';
 
