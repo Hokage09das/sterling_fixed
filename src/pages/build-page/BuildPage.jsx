@@ -13,7 +13,9 @@ export const BuildPage = () => {
 	return (
 		<div>
 			<Layout>
-				<ApartmenList />
+				<div style={{ marginTop: '50px' }}>
+					<ApartmenList />
+				</div>
 			</Layout>
 		</div>
 	);
