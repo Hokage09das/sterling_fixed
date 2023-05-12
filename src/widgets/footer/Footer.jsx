@@ -42,36 +42,49 @@ export const Footer = ({ className }) => {
 						</ul>
 					</div>
 					<div>
-						<h3>contact</h3>
+						<h3>Контакты</h3>
 
 						<ul
 							style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}
 						>
-							<li>adress</li>
-							<li>email</li>
+							<li>Адресс: Жоомарта Боконбаева 113</li>
+							<li>
+								<a
+									href='mailto: dbayizbekov@gmail.com'
+									className={classes.mail}
+								>
+									Email: dbayizbekov@gmail.com
+								</a>
+							</li>
 						</ul>
 					</div>
 					<div className={classes.messenger_container}>
 						<div className={classes.messenger_wrapper}>
-							<img
-								src={whatsapp}
-								alt=''
-								className={classes.messenger}
-							/>
+							<a href='https://wa.me/+996554030814'>
+								<img
+									src={whatsapp}
+									alt=''
+									className={classes.messenger}
+								/>
+							</a>
 						</div>
 						<div className={classes.messenger_wrapper}>
-							<img
-								src={telegram}
-								alt=''
-								className={classes.messenger}
-							/>
+							<a href="https://telegram.me/share/url?url=<URL>&text=<TEXT>">
+								<img
+									src={telegram}
+									alt=''
+									className={classes.messenger}
+								/>
+							</a>
 						</div>
 						<div className={classes.messenger_wrapper}>
-							<img
-								src={instagram}
-								alt=''
-								className={classes.messenger}
-							/>
+							<a href='https://www.instagram.com/sterlingdevelopmentkg/'>
+								<img
+									src={instagram}
+									alt=''
+									className={classes.messenger}
+								/>
+							</a>
 						</div>
 					</div>
 				</div>

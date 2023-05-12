@@ -18,10 +18,12 @@ export const AboutPage = () => {
 	return (
 		<div>
 			<Layout>
-				<HomeAboutSection />
-				<WelcomingSection />
-				<AvenueCarousel />
-				<AboutSecondSection />
+				<div style={{ marginTop: '50px' }}>
+					<HomeAboutSection />
+					<WelcomingSection />
+					<AvenueCarousel />
+					<AboutSecondSection />
+				</div>
 			</Layout>
 		</div>
 	);
