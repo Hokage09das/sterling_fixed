@@ -3,7 +3,7 @@ import React from 'react';
 import { AvenueDescWithLogo } from '../avenue-desc-with-logo/AvenueDescWithLogo';
 import { AvenueDesc } from '../avenue-desc/AvenueDesc';
 
-import building from '../../assets/images/corusel4.png';
+import building from '../../assets/images/carusel4.jpg';
 
 import classes from './avenue-desc-one.module.scss';
 

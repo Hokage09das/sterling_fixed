@@ -8,12 +8,12 @@ import avatar from '../../assets/images/avatar.jpg';
 import sub_photo_1 from '../../assets/images/avatar_sub_photo_1.jpg';
 import sub_photo_2 from '../../assets/images/avatar_sub_photo_2.jpg';
 import sub_photo_3 from '../../assets/images/avatar_sub_photo_3.jpg';
-import sub_photo_4 from '../../assets/images/avatar_sub_photo_4.jpg';
+import sub_photo_4 from '../../assets/images/avatar_sub_photo_5.jpg';
 import { useNavigate } from 'react-router-dom';
 import { routes } from '../../routes/constants.routes';
 
 export const HomeAboutSection = ({ variant }) => {
-	const navigate = useNavigate();
+	const navigate = useNavigate(); 
 
 	return (
 		<div className={classes.main_container}>
