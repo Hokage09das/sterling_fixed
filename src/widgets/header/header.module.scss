@@ -1,7 +1,9 @@
 .header1 {
 	background-color: #06505b;
-	position: relative;
+	position: absolute;
+	z-index: 100;
 	top: 0;
+	left: 0;
 	width: 100%;
 }
 

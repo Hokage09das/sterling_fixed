@@ -1,7 +1,7 @@
 import React from 'react';
 
 import welcoming_photo from '../../assets/images/erkindik.jpg';
-import welcoming_photo_2 from '../../assets/images/corusel1.png';
+import welcoming_photo_2 from '../../assets/images/carusel1.jpg';
 import logo from '../../assets/images/sterling-white-logo.png';
 
 import classes from './welcoming_section.module.scss';

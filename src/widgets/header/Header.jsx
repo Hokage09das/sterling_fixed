@@ -27,7 +27,7 @@ export const Header = () => {
 			? scroll
 				? styles.header_fixed
 				: styles.main_header_style
-			: styles.header1;
+			: styles.header_fixed;
 
 	React.useEffect(() => {
 		window.addEventListener('scroll', handleScroll);
