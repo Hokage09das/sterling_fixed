@@ -7,17 +7,21 @@ export const corusel = [
 	{
 		id: 1,
 		src: corusel1,
+		bg_image: corusel1,
 	},
 	{
 		id: 2,
 		src: corusel2,
+		bg_image: corusel2,
 	},
 	{
 		id: 3,
 		src: corusel3,
+		bg_image: corusel3,
 	},
 	{
 		id: 4,
 		src: corusel4,
+		bg_image: corusel2,
 	},
 ];
