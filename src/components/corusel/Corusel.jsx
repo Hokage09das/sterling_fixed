@@ -17,6 +17,7 @@ export const Corusel = () => {
 			autoplay={true}
 			pagination={{ clickable: true }}
 			scrollbar={{ draggable: true }}
+			className='swiper_class'
 		>
 			{corusel.map((item) => {
 				return (
@@ -24,10 +25,16 @@ export const Corusel = () => {
 						key={item.id}
 						className='swiper_class'
 					>
-						<img
-							src={item.src}
-							className='swiper_class_img'
-							alt=''
+						<div className='carousel_image_container'>
+							<img
+								src={item.src}
+								className='swiper_class_img'
+								alt=''
+							/>
+						</div>
+						<div
+							className='bg_image'
+							style={{ backgroundImage: `url(${item.bg_image})` }}
 						/>
 					</SwiperSlide>
 				);
