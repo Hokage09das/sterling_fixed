@@ -1,9 +1,6 @@
 import React, { useEffect } from 'react';
 
-import { AvenueCarousel, Corusel, Layout, SterlingMap } from '../../components';
-
-import { HomeAboutSection } from '../../widgets/home_about_section/HomeAboutSection';
-import { WelcomingSection } from '../../widgets/welcoming_section/WelcomingSection';
+import { Corusel, Layout, SterlingMap } from '../../components';
 
 export const HomePage = () => {
 	useEffect(() => {
@@ -18,9 +15,6 @@ export const HomePage = () => {
 		<>
 			<Corusel />
 			<Layout>
-				<HomeAboutSection variant='withButton' />
-				<WelcomingSection />
-				<AvenueCarousel />
 				<SterlingMap />
 			</Layout>
 		</>
