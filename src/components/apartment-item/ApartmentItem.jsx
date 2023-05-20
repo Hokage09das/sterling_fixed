@@ -18,6 +18,7 @@ export const ApartmentItem = ({
 	kabinet,
 	toiletSecond,
 	loggiaSecond,
+	loggiaThird,
 	bedroomSecond,
 	bedroomThird,
 	wardrobeSecond,
@@ -57,6 +58,7 @@ export const ApartmentItem = ({
 					<li>{bathroom}</li>
 					<li>{loggia}</li>
 					<li>{loggiaSecond}</li>
+					<li>{loggiaThird}</li>
 					<li>{wardrobe}</li>
 					<li>{toilet}</li>
 					<li>{toiletSecond}</li>
