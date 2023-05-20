@@ -1,4 +1,11 @@
-import { AboutPage, AvenuePage, BuildPage, HomePage, MainPage } from '../pages';
+import {
+	AboutPage,
+	AvenuePage,
+	BuildPage,
+	HomePage,
+	MainPage,
+	NewsPage,
+} from '../pages';
 
 import { routes } from './constants.routes';
 
@@ -23,6 +30,10 @@ export const router = () => {
 				{
 					path: routes.AVENUE_PAGE,
 					element: <AvenuePage />,
+				},
+				{
+					path: routes.NEWS_PAGE,
+					element: <NewsPage />,
 				},
 			],
 		},
