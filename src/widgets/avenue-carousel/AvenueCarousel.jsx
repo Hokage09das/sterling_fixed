@@ -1,10 +1,10 @@
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { A11y, Navigation, Pagination, Scrollbar } from 'swiper';
+import { Swiper, SwiperSlide } from "swiper/react";
+import { A11y, Navigation, Pagination, Scrollbar } from "swiper";
 
-import { AvenueDescOne } from '../avenue-desc-one/AvenueDescOne';
-import { AvenueDescTwo } from '../avenue-desc-two/AvenueDescTwo';
-import { AvenueDescThree } from '../avenue-desc-three/AvenueDescThree';
-import { AvenueDescFour } from '../avenue-desc-four/AvenueDescFour';
+import { AvenueDescOne } from "../../components/avenue-desc-one/AvenueDescOne";
+import { AvenueDescTwo } from "../../components/avenue-desc-two/AvenueDescTwo";
+import { AvenueDescThree } from "../../components/avenue-desc-three/AvenueDescThree";
+import { AvenueDescFour } from "../../components/avenue-desc-four/AvenueDescFour";
 
 export const AvenueCarousel = () => {
 	return (

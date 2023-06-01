@@ -1,15 +1,16 @@
-import React, { useEffect } from 'react';
-import { WelcomingSection } from '../../widgets/welcoming_section/WelcomingSection';
-import { AvenueCarousel, Layout } from '../../components';
+import React, { useEffect } from "react";
+import { WelcomingSection } from "../../widgets/welcoming_section/WelcomingSection";
+import { AvenueCarousel, Layout } from "../../components";
 
-import classes from './avenu_page.module.scss';
+import classes from "./avenu_page.module.scss";
+import { ImprovementAvenue } from "../../widgets/improvement_avenue/ImprovementAvenue";
 
 export const AvenuePage = () => {
 	useEffect(() => {
 		window.scrollTo({
 			top: 0,
 			left: 0,
-			behavior: 'smooth',
+			behavior: "smooth",
 		});
 	}, []);
 
@@ -18,6 +19,7 @@ export const AvenuePage = () => {
 			<Layout>
 				<WelcomingSection />
 				<AvenueCarousel />
+				<ImprovementAvenue />
 			</Layout>
 		</div>
 	);

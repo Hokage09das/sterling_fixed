@@ -1,10 +1,9 @@
-import React from 'react';
+import React from "react";
 
-import welcoming_photo from '../../assets/images/erkindik3.jpg';
-import welcoming_photo_2 from '../../assets/images/carusel1.jpg';
-import logo from '../../assets/images/sterling-white-logo.png';
+import welcoming_photo from "../../assets/images/erkindik.png";
+import welcoming_photo_2 from "../../assets/images/carusel1.jpg";
 
-import classes from './welcoming_section.module.scss';
+import classes from "./welcoming_section.module.scss";
 
 export const WelcomingSection = () => {
 	return (
@@ -14,12 +13,6 @@ export const WelcomingSection = () => {
 					src={welcoming_photo}
 					alt='erkingik'
 				/>
-				<div className={classes.logo}>
-					<img
-						src={logo}
-						alt=''
-					/>
-				</div>
 				<div className={classes.border}></div>
 			</div>
 			<div className={classes.img}>
