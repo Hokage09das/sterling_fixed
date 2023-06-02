@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 
-import styles from './aparment_item.module.scss';
+import styles from "./aparment_item.module.scss";
 
 export const ApartmentItem = ({
 	img,
@@ -8,6 +8,7 @@ export const ApartmentItem = ({
 	area,
 	holl,
 	subImg,
+	bg_image,
 	loggia,
 	kitchen,
 	bedroom,
@@ -16,6 +17,9 @@ export const ApartmentItem = ({
 	wardrobe,
 	toilet,
 	kabinet,
+	planning,
+	number,
+	countOfFloor,
 	toiletSecond,
 	loggiaSecond,
 	loggiaThird,
@@ -44,28 +48,60 @@ export const ApartmentItem = ({
 					/>
 				</div>
 			</div>
-			<div className={styles.aparment_item_third_container}>
-				<p className={styles.title}>{desc}</p>
+			<div className={styles.aparment_item_third_container} style={{background:`url(${bg_image})`}}>
+				<div className={styles.planning}>
+					<p>{planning}</p>
+					<p className={styles.floor_desc}>{countOfFloor}</p>
+				</div>
+
+				<div className={styles.title}>{desc}</div>
+				{areaOfFloor ? (
+					<div style={{ marginTop: "10px" }}>
+						<p>{area}</p>
+						<p className={styles.floor}>{areaOfFloor}</p>
+						<div className={styles.numberofArea}>{number}</div>
+					</div>
+				) : (
+					<div style={{ marginTop: "10px" }}>
+						<p className={styles.area}>{area}</p>
+						<div className={styles.numberofArea}>{number}</div>
+					</div>
+				)}
+
 				<ul>
-					<li>{areaOfFloor}</li>
-					<li>{area}</li>
-					<li>{holl}</li>
-					<li>{kitchen}</li>
-					<li>{bedroom}</li>
-					<li>{kabinet}</li>
-					<li>{bedroomSecond}</li>
-					<li>{bedroomThird}</li>
-					<li>{bathroom}</li>
-					<li>{loggia}</li>
-					<li>{loggiaSecond}</li>
-					<li>{loggiaThird}</li>
-					<li>{wardrobe}</li>
-					<li>{toilet}</li>
-					<li>{toiletSecond}</li>
-					<li>{terrace}</li>
-					<li>{wardrobeSecond}</li>
-					<li>{wardrobeThird}</li>
-					<li>{bathroomSecond}</li>
+					<li style={{ display: holl ? "flex" : "none" }}>{holl}</li>
+					<li style={{ display: kitchen ? "flex" : "none" }}>{kitchen}</li>
+					<li style={{ display: bedroom ? "flex" : "none" }}>{bedroom}</li>
+					<li style={{ display: kabinet ? "flex" : "none" }}>{kabinet}</li>
+					<li style={{ display: bedroomSecond ? "flex" : "none" }}>
+						{bedroomSecond}
+					</li>
+					<li style={{ display: bedroomThird ? "flex" : "none" }}>
+						{bedroomThird}
+					</li>
+					<li style={{ display: bathroom ? "flex" : "none" }}>{bathroom}</li>
+					<li style={{ display: loggia ? "flex" : "none" }}>{loggia}</li>
+					<li style={{ display: loggiaSecond ? "flex" : "none" }}>
+						{loggiaSecond}
+					</li>
+					<li style={{ display: loggiaThird ? "flex" : "none" }}>
+						{loggiaThird}
+					</li>
+					<li style={{ display: wardrobe ? "flex" : "none" }}>{wardrobe}</li>
+					<li style={{ display: toilet ? "flex" : "none" }}>{toilet}</li>
+					<li style={{ display: toiletSecond ? "flex" : "none" }}>
+						{toiletSecond}
+					</li>
+					<li style={{ display: terrace ? "flex" : "none" }}>{terrace}</li>
+					<li style={{ display: wardrobeSecond ? "flex" : "none" }}>
+						{wardrobeSecond}
+					</li>
+					<li style={{ display: wardrobeThird ? "flex" : "none" }}>
+						{wardrobeThird}
+					</li>
+					<li style={{ display: bathroomSecond ? "flex" : "none" }}>
+						{bathroomSecond}
+					</li>
 				</ul>
 			</div>
 		</div>

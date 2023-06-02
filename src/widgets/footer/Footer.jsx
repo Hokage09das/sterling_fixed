@@ -47,13 +47,13 @@ export const Footer = ({ className }) => {
 						<ul
 							style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}
 						>
-							<li>Адресс: Жоомарта Боконбаева 113</li>
+							<li>Адрес: Жоомарта Боконбаева 113</li>
 							<li>
 								<a
 									href='mailto: dbayizbekov@gmail.com'
 									className={classes.mail}
 								>
-									Email: dbayizbekov@gmail.com
+									Почта: dbayizbekov@gmail.com
 								</a>
 							</li>
 						</ul>
