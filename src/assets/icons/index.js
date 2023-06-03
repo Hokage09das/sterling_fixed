@@ -1,1 +1,12 @@
 export { ReactComponent as BurgerIcon } from './burger_icon.svg';
+export { ReactComponent as ListBlueCircle } from './list_item_blue_circle.svg';
+export { ReactComponent as AvenueIcon1 } from './avenue_icon_1.svg';
+export { ReactComponent as AvenueIcon2 } from './avenue_icon_2.svg';
+export { ReactComponent as AvenueIcon3 } from './avenue_icon_3.svg';
+export { ReactComponent as AvenueIcon4 } from './avenue_icon_4.svg';
+export { ReactComponent as AvenueIcon5 } from './avenue_icon_5.svg';
+export { ReactComponent as AvenueIcon6 } from './avenue_icon_6.svg';
+export { ReactComponent as AvenueIcon7 } from './avenue_icon_7.svg';
+export { ReactComponent as AvenueIcon8 } from './avenue_icon_8.svg';
+export { ReactComponent as AvenueIcon9 } from './avenue_icon_9.svg';
+export { ReactComponent as AvenueIcon10 } from './avenue_icon_10.svg';

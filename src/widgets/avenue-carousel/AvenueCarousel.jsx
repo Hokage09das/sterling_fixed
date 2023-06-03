@@ -15,6 +15,7 @@ export const AvenueCarousel = () => {
 			loop={true}
 			pagination={{ clickable: true }}
 			scrollbar={{ draggable: true }}
+			style={{height: 'auto'}}
 		>
 			<SwiperSlide>
 				<AvenueDescOne />
