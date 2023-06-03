@@ -1,50 +1,125 @@
+.container {
+  width: 100%;
+  height: 100%;
+  background-image: url('../../assets/images/avenue_map_image.png');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+}
+
 .left {
-	width: 50%;
-	height: 100%;
+  width: 70%;
+  height: 100%;
+  color: #003755;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 40px;
+  font-size: clamp(0.875rem, 0.844rem + 0.17vw, 1rem);
+  font-weight: 400;
+  line-height: 25px;
+  padding: 0 15px;
 
-	.description {
-		width: 100%;
-		height: 80%;
-		font-size: clamp(0.875rem, 0.83rem + 0.23vw, 1rem);
-		font-weight: 400;
-		line-height: 25px;
-		color: white;
-		padding-bottom: 20px;
+  h2 {
+    font-size: clamp(1.563rem, 1.172rem + 2.08vw, 3.125rem);
+  }
 
-		&_text {
-			margin-bottom: 10px;
-		}
+  .bolt_text {
+    font-weight: 900;
+  }
 
-		&_first {
-			margin-bottom: 13%;
-		}
+  .list_title {
+    font-size: clamp(1.25rem, 1.25rem + 0vw, 1.25rem);
+    margin-bottom: 20px;
+  }
 
-		&_second {
-			&_ul {
-				margin-left: 20px;
-				list-style-type: circle;
-			}
-		}
-	}
+  .details {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+
+    ul {
+      display: flex;
+      flex-direction: column;
+      row-gap: 15px;
+      li {
+        display: flex;
+        column-gap: 15px;
+      }
+    }
+  }
 }
 
 .right {
-	width: 50%;
-	height: 100%;
+  width: 30%;
+  display: flex;
+  align-items: center;
 
-	img {
-		width: 100%;
-		height: 100%;
-		object-fit: contain;
-	}
+  img {
+    align-self: center;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    position: center
+  }
 }
+
+@media (max-width: 1300px) {
+
+  .left {
+    width: 100%;
+    background: rgba(232, 232, 232, 0.25);
+    border: 1px solid #FFFFFF;
+    backdrop-filter: blur(12.5px);
+    border-radius: 15px;
+
+    .details {
+      column-gap: 30px;
+    }
+  }
+
+  .right {
+    display: none;
+  }
+}
+
 
 @media (max-width: 800px) {
-	.left {
-		width: 100%;
-	}
+  .left {
+    width: 100%;
+    row-gap: 12px;
 
-	.right {
-		display: none;
-	}
+    .details {
+      ul {
+        row-gap: 7px;
+      }
+
+    }
+  }
+
+  .right {
+    display: none;
+  }
 }
+
+@media (max-width: 600px) {
+  .left {
+    width: 100%;
+    row-gap: 10px;
+    padding: 0 10px;
+
+    .details {
+      ul {
+        row-gap: 5px;
+      }
+
+    }
+  }
+
+  .right {
+    display: none;
+  }
+}
+
+

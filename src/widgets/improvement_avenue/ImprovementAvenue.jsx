@@ -13,7 +13,7 @@ import classes from "./improvementa_avenue.module.scss";
 export const ImprovementAvenue = () => {
 	return (
 		<div className={classes.main_container}>
-			<h2>Благоустройство</h2>
+			<h2 className={classes.main_container_title}>Благоустройство</h2>
 			<div className={classes.content_container}>
 				<div className={classes.title_container}>
 					<h4>ШУМОИЗОЛЯЦИЯ</h4>

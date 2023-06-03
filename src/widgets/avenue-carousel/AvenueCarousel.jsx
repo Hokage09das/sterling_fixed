@@ -15,18 +15,19 @@ export const AvenueCarousel = () => {
 			loop={true}
 			pagination={{ clickable: true }}
 			scrollbar={{ draggable: true }}
+			style={{height: 'auto'}}
 		>
 			<SwiperSlide>
-				<AvenueDescOne />
+				<AvenueDescThree />
 			</SwiperSlide>
 			<SwiperSlide>
 				<AvenueDescTwo />
 			</SwiperSlide>
 			<SwiperSlide>
-				<AvenueDescThree />
+				<AvenueDescFour />
 			</SwiperSlide>
 			<SwiperSlide>
-				<AvenueDescFour />
+				<AvenueDescOne />
 			</SwiperSlide>
 		</Swiper>
 	);
