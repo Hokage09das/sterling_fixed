@@ -6,6 +6,7 @@ import security from "../../assets/images/comfort_3.png";
 import wifi from "../../assets/images/wifi_line.png";
 import arrow from "../../assets/images/arrow.png";
 import camera from "../../assets/images/camera.png";
+import photo from "../../assets/images/hod_strointelstva.png";
 
 import classes from "./improvementa_avenue.module.scss";
 
@@ -112,6 +113,12 @@ export const ImprovementAvenue = () => {
 						alt='/'
 					/>
 				</div>
+			</div>
+			<div className={classes.hod_building}>
+				<img
+					src={photo}
+					alt='/'
+				/>
 			</div>
 		</div>
 	);
