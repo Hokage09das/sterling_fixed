@@ -50,10 +50,10 @@ export const Footer = ({ className }) => {
 							<li>Адрес: Жоомарта Боконбаева 113</li>
 							<li>
 								<a
-									href='mailto: dbayizbekov@gmail.com'
+									href='mailto: Sales@streling.kg'
 									className={classes.mail}
 								>
-									Почта: dbayizbekov@gmail.com
+									Почта: Sales@streling.kg
 								</a>
 							</li>
 						</ul>
@@ -63,15 +63,6 @@ export const Footer = ({ className }) => {
 							<a href='https://wa.me/+996554030814'>
 								<img
 									src={whatsapp}
-									alt=''
-									className={classes.messenger}
-								/>
-							</a>
-						</div>
-						<div className={classes.messenger_wrapper}>
-							<a href="https://telegram.me/share/url?url=<URL>&text=<TEXT>">
-								<img
-									src={telegram}
 									alt=''
 									className={classes.messenger}
 								/>
