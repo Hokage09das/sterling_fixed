@@ -18,16 +18,16 @@ export const AvenueCarousel = () => {
 			style={{height: 'auto'}}
 		>
 			<SwiperSlide>
-				<AvenueDescOne />
+				<AvenueDescThree />
 			</SwiperSlide>
 			<SwiperSlide>
 				<AvenueDescTwo />
 			</SwiperSlide>
 			<SwiperSlide>
-				<AvenueDescThree />
+				<AvenueDescFour />
 			</SwiperSlide>
 			<SwiperSlide>
-				<AvenueDescFour />
+				<AvenueDescOne />
 			</SwiperSlide>
 		</Swiper>
 	);

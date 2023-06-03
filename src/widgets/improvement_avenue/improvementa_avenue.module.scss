@@ -4,6 +4,12 @@
 	gap: 40px;
 	width: 100%;
 
+	&_title {
+		font-size: clamp(2.25rem, 2.063rem + 1vw, 3rem);
+		color: #003755;
+		margin-top: 40px;
+	}
+
 	.hod_building {
 		width: 100%;
 		img {

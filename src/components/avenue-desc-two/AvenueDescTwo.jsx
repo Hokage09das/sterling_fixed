@@ -74,54 +74,56 @@ const details2 = [
 
 export const AvenueDescTwo = () => {
   return (
-    <AvenueDesc style={{ height: 'auto'}}>
-      <div className={classes.left}>
-        <p>
-          Жилой дом “Эркиндик авеню” расположен на пересечении улиц Раззакова и Чуйкова
-        </p>
-        <h2>
-          в Золотом квадрате
-        </h2>
-        <p>
-          <span>100м</span> от Бульвара Эркиндик (парк имени Дзержинского)
-          в тихом уютном уголке <br/>
-          Это дом премиум-класса, <span>новейший формат современного жилья</span>
-        </p>
-      
-        <div>
-          <p className={classes.list_title}>
-            В шаговой доступности:
+    <AvenueDesc>
+      <div className={classes.container}>
+        <div className={classes.left}>
+          <p>
+            Жилой дом “Эркиндик авеню” расположен на пересечении улиц Раззакова и Чуйкова
           </p>
-          <div className={classes.details}>
-            <ul>
-              {
-                details1.map((item) => (
-                  <li key={item.id}>
-                    {item.icon}
-                    {item.text}
-                  </li>
-                ))
-              }
-            </ul>
-            <ul>
-              {
-                details2.map((item) => (
-                  <li key={item.id}>
-                    {item.icon}
-                    {item.text}
-                  </li>
-                ))
-              }
-            </ul>
+          <h2>
+            в Золотом квадрате
+          </h2>
+          <p>
+            <span>100м</span> от Бульвара Эркиндик (парк имени Дзержинского)
+            в тихом уютном уголке <br/>
+            Это дом премиум-класса, <span>новейший формат современного жилья</span>
+          </p>
+    
+          <div>
+            <p className={classes.list_title}>
+              В шаговой доступности:
+            </p>
+            <div className={classes.details}>
+              <ul>
+                {
+                  details1.map((item) => (
+                    <li key={item.id}>
+                      {item.icon}
+                      {item.text}
+                    </li>
+                  ))
+                }
+              </ul>
+              <ul>
+                {
+                  details2.map((item) => (
+                    <li key={item.id}>
+                      {item.icon}
+                      {item.text}
+                    </li>
+                  ))
+                }
+              </ul>
+            </div>
+    
           </div>
-          
         </div>
-      </div>
-      <div className={classes.right}>
-        <img
-          src={avenue_map_image}
-          alt='building on the map'
-        />
+        <div className={classes.right}>
+          {/*<img*/}
+          {/*  src={avenue_map_image}*/}
+          {/*  alt='building on the map'*/}
+          {/*/>*/}
+        </div>
       </div>
     </AvenueDesc>
   );
