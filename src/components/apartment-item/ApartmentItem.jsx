@@ -1,6 +1,7 @@
 import React from "react";
 
 import styles from "./aparment_item.module.scss";
+import { ListBlueCircle } from "../../assets/icons";
 
 export const ApartmentItem = ({
 	img,
@@ -48,7 +49,10 @@ export const ApartmentItem = ({
 					/>
 				</div>
 			</div>
-			<div className={styles.aparment_item_third_container} style={{background:`url(${bg_image})`}}>
+			<div
+				className={styles.aparment_item_third_container}
+				style={{ background: `url(${bg_image})` }}
+			>
 				<div className={styles.planning}>
 					<p>{planning}</p>
 					<p className={styles.floor_desc}>{countOfFloor}</p>
@@ -69,37 +73,71 @@ export const ApartmentItem = ({
 				)}
 
 				<ul>
-					<li style={{ display: holl ? "flex" : "none" }}>{holl}</li>
-					<li style={{ display: kitchen ? "flex" : "none" }}>{kitchen}</li>
-					<li style={{ display: bedroom ? "flex" : "none" }}>{bedroom}</li>
-					<li style={{ display: kabinet ? "flex" : "none" }}>{kabinet}</li>
+					<li style={{ display: holl ? "flex" : "none" }}>
+						<ListBlueCircle /> {holl}
+					</li>
+					<li style={{ display: kitchen ? "flex" : "none" }}>
+						<ListBlueCircle />
+						{kitchen}
+					</li>
+					<li style={{ display: bedroom ? "flex" : "none" }}>
+						<ListBlueCircle />
+						{bedroom}
+					</li>
+					<li style={{ display: kabinet ? "flex" : "none" }}>
+						<ListBlueCircle />
+						{kabinet}
+					</li>
 					<li style={{ display: bedroomSecond ? "flex" : "none" }}>
+						<ListBlueCircle />
 						{bedroomSecond}
 					</li>
 					<li style={{ display: bedroomThird ? "flex" : "none" }}>
+						<ListBlueCircle />
 						{bedroomThird}
 					</li>
-					<li style={{ display: bathroom ? "flex" : "none" }}>{bathroom}</li>
-					<li style={{ display: loggia ? "flex" : "none" }}>{loggia}</li>
+					<li style={{ display: bathroom ? "flex" : "none" }}>
+						<ListBlueCircle />
+						{bathroom}
+					</li>
+					<li style={{ display: loggia ? "flex" : "none" }}>
+						<ListBlueCircle />
+						{loggia}
+					</li>
 					<li style={{ display: loggiaSecond ? "flex" : "none" }}>
+						<ListBlueCircle />
 						{loggiaSecond}
 					</li>
 					<li style={{ display: loggiaThird ? "flex" : "none" }}>
+						<ListBlueCircle />
 						{loggiaThird}
 					</li>
-					<li style={{ display: wardrobe ? "flex" : "none" }}>{wardrobe}</li>
-					<li style={{ display: toilet ? "flex" : "none" }}>{toilet}</li>
+					<li style={{ display: wardrobe ? "flex" : "none" }}>
+						<ListBlueCircle />
+						{wardrobe}
+					</li>
+					<li style={{ display: toilet ? "flex" : "none" }}>
+						<ListBlueCircle />
+						{toilet}
+					</li>
 					<li style={{ display: toiletSecond ? "flex" : "none" }}>
+						<ListBlueCircle />
 						{toiletSecond}
 					</li>
-					<li style={{ display: terrace ? "flex" : "none" }}>{terrace}</li>
+					<li style={{ display: terrace ? "flex" : "none" }}>
+						<ListBlueCircle />
+						{terrace}
+					</li>
 					<li style={{ display: wardrobeSecond ? "flex" : "none" }}>
+						<ListBlueCircle />
 						{wardrobeSecond}
 					</li>
 					<li style={{ display: wardrobeThird ? "flex" : "none" }}>
+						<ListBlueCircle />
 						{wardrobeThird}
 					</li>
 					<li style={{ display: bathroomSecond ? "flex" : "none" }}>
+						<ListBlueCircle />
 						{bathroomSecond}
 					</li>
 				</ul>
