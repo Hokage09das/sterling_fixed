@@ -4,7 +4,6 @@ import { AvenueCarousel, Layout } from "../../components";
 
 import classes from "./avenu_page.module.scss";
 import { ImprovementAvenue } from "../../widgets/improvement_avenue/ImprovementAvenue";
-import {AvenueDescTwo} from '../../components/avenue-desc-two/AvenueDescTwo';
 
 export const AvenuePage = () => {
 	useEffect(() => {

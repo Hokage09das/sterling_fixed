@@ -82,10 +82,21 @@
 			height: 90%;
 			margin-top: 10px;
 			gap: 5px;
+			padding-left: 8px;
 
 			li {
 				font-size: 14px;
 				font-weight: 500;
+				display: flex;
+				gap: 5px;
+				align-items: center;
+				svg {
+					width: 15px;
+
+					circle {
+						stroke: white;
+					}
+				}
 			}
 		}
 	}
@@ -95,12 +106,11 @@
 	.aparment_item {
 		// width: 320px;
 
-		
-	& .image_container {
-		background-color: white;
-		width: 50%;
-		padding: 0;
-	}
+		& .image_container {
+			background-color: white;
+			width: 50%;
+			padding: 0;
+		}
 
 		&_first_container {
 			max-width: 300px;
