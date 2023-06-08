@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 
-import classes from './sterling_map.module.scss';
+import classes from "./sterling_map.module.scss";
 
 export const SterlingMap = () => {
 	return (
@@ -16,13 +16,13 @@ export const SterlingMap = () => {
 			</div>
 			<div className={classes.map_description}>
 				<div className={classes.map_description_border}>
-					<h4 className={classes.map_description_title}>Наш адрес</h4>
+					<h4 className={classes.map_description_title}>ЖК "Эркиндик авеню"</h4>
 					<p className={classes.map_description_sub_title}>
 						Мы находимся на пересечении Жоомарта Боконбаева и Раззакова в бизнес
 						центре Альтаир.
 					</p>
 					<p className={classes.map_description_sub_title}>
-						Адрес: Жоомарта Боконбаева 113
+						Адрес: ул. Боконбаева 113
 					</p>
 				</div>
 			</div>
