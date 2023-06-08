@@ -1,15 +1,14 @@
-import React from 'react';
-import { Layout } from '../../components/layout/Layout';
-import { useNavigate } from 'react-router-dom';
+import React from "react";
+import { Layout } from "../../components/layout/Layout";
+import { useNavigate } from "react-router-dom";
 
-import { navigation } from './constants';
+import { navigation } from "./constants";
 
-import logo from '../../assets/images/logo.png';
-import whatsapp from '../../assets/images/whatsapp.png';
-import instagram from '../../assets/images/insta.png';
-import telegram from '../../assets/images/telegram.png';
+import logo from "../../assets/images/sterling-white-logo.png";
+import whatsapp from "../../assets/images/whatsapp.png";
+import instagram from "../../assets/images/insta.png";
 
-import classes from './footer.module.scss';
+import classes from "./footer.module.scss";
 
 export const Footer = ({ className }) => {
 	const navigate = useNavigate();
@@ -45,9 +44,9 @@ export const Footer = ({ className }) => {
 						<h3>Контакты</h3>
 
 						<ul
-							style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}
+							style={{ display: "flex", flexDirection: "column", gap: "10px" }}
 						>
-							<li>Адрес: Жоомарта Боконбаева 113</li>
+							<li>Адрес: ул. Боконбаева 113</li>
 							<li>
 								<a
 									href='mailto: Sales@streling.kg'
@@ -56,11 +55,18 @@ export const Footer = ({ className }) => {
 									Почта: Sales@streling.kg
 								</a>
 							</li>
+							<li style={{ display: "flex", gap: "10px" }}>
+								Тел:
+								<div>
+									<div>0559 404444</div>
+									<div>0709 404444</div>
+								</div>
+							</li>
 						</ul>
 					</div>
 					<div className={classes.messenger_container}>
 						<div className={classes.messenger_wrapper}>
-							<a href='https://wa.me/+996554030814'>
+							<a href='https://wa.me/+996559404444'>
 								<img
 									src={whatsapp}
 									alt=''
@@ -69,7 +75,7 @@ export const Footer = ({ className }) => {
 							</a>
 						</div>
 						<div className={classes.messenger_wrapper}>
-							<a href='https://www.instagram.com/sterlingdevelopmentkg/'>
+							<a href='https://www.instagram.com/sterling_development_kg/?igshid=MzRlODBiNWFlZA%3D%3D'>
 								<img
 									src={instagram}
 									alt=''
