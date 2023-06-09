@@ -49,17 +49,17 @@ export const Footer = ({ className }) => {
 							<li>Адрес: ул. Боконбаева 113</li>
 							<li>
 								<a
-									href='mailto: Sales@streling.kg'
+									href='mailto: sales@streling.kg'
 									className={classes.mail}
 								>
-									Почта: Sales@streling.kg
+									Почта: Sales@Streling.kg
 								</a>
 							</li>
 							<li style={{ display: "flex", gap: "10px" }}>
 								Тел:
 								<div>
-									<div>0559 404444</div>
-									<div>0709 404444</div>
+									<div>0559 404 444</div>
+									<div>0709 404 444</div>
 								</div>
 							</li>
 						</ul>
