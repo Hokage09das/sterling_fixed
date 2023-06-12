@@ -49,10 +49,10 @@ export const Footer = ({ className }) => {
 							<li>Адрес: ул. Боконбаева 113</li>
 							<li>
 								<a
-									href='mailto: sales@streling.kg'
+									href='mailto: sales@sterling.kg'
 									className={classes.mail}
 								>
-									Почта: sales@streling.kg
+									Почта: sales@sterling.kg
 								</a>
 							</li>
 							<li style={{ display: "flex", gap: "10px" }}>
