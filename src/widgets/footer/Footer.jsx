@@ -52,7 +52,7 @@ export const Footer = ({ className }) => {
 									href='mailto: sales@streling.kg'
 									className={classes.mail}
 								>
-									Почта: Sales@Streling.kg
+									Почта: sales@streling.kg
 								</a>
 							</li>
 							<li style={{ display: "flex", gap: "10px" }}>
